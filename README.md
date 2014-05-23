@@ -51,11 +51,12 @@ Your new container will have several environmental variables passed to it with t
 `redis-cli -h $DB_PORT_6379_TCP_ADDR`
 
 This will present you with the Redis prompt, and allow you to set and get data from the database.
- `redis 172.17.0.2:6379> set docker awesome
-OK
-$ redis 172.17.0.2.6379> get docker
-"awesome"
-$ redis 172.17.0.33:6379> exit`
+
+    redis 172.17.0.2:6379> set docker awesome
+    OK
+    $ redis 172.17.0.2.6379> get docker
+    "awesome"
+    $ redis 172.17.0.33:6379> exit
 
 (Example shamelessly stolen from Docker.io's Redis Service page.)
 
