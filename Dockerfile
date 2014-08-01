@@ -2,7 +2,7 @@
 #
 # Based on: http://docs.docker.io/examples/running_redis_service/
 
-FROM centos
+FROM centos:centos6
 MAINTAINER Chris Collins <collins.christopher@gmail.com>
 
 ADD pre-install.sh /pre-install.sh
